@@ -1,4 +1,4 @@
-# #AFT - Appwrite Functions Types
+# #AFT - Appwrite Function Types
 
 A type declaration package for Appwrite Functions.\
 This package provides `TypeScript` definitions for the request handling context in Appwrite Cloud Functions.
