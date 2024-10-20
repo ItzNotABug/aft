@@ -16,12 +16,17 @@ npm install @itznotabug/aft --save-dev
 ## Usage
 
 ```ts
-import {Context, Request, Response} from '@itznotabug/aft';
+import {
+    RuntimeContext,
+    RuntimeRequest,
+    RuntimeResponse,
+    RuntimeOutput,
+} from "@itznotabug/aft";
 
-export default async (context: Context) => {
-    const request: Request = context.req;
-    const response: Response = context.res;
+export default async (context: RuntimeContext): RuntimeOutput => {
+    const request: RuntimeRequest = context.req;
+    const response: RuntimeResponse = context.res;
 
-    response.json({message: "Hello, Appwrite!"});
+    return response.json({ message: "Hello, World!" });
 };
 ```
