@@ -23,7 +23,7 @@ import {
     RuntimeOutput,
 } from "@itznotabug/aft";
 
-export default async (context: RuntimeContext): RuntimeOutput => {
+export default async (context: RuntimeContext): Promise<RuntimeOutput> => {
     const request: RuntimeRequest = context.req;
     const response: RuntimeResponse = context.res;
 
