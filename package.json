@@ -1,0 +1,17 @@
+{
+  "name": "@itznotabug/aft",
+  "version": "0.0.1",
+  "description": "A type declaration package for Appwrite Cloud Functions.",
+  "author": "@itznotabug",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/itznotabug/aft",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itznotabug/aft.git"
+  },
+  "keywords": [
+    "appwrite",
+    "functions",
+    "typescript"
+  ]
+}
