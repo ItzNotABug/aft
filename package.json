@@ -1,6 +1,6 @@
 {
   "name": "@itznotabug/aft",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A type declaration package for Appwrite Cloud Functions.",
   "author": "@itznotabug",
   "main": "index.d.ts",
